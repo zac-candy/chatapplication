@@ -1,0 +1,25 @@
+{
+    "name": "chatapplication",
+    "version": "1.0.0",
+    "description": "some description",
+    "main": "./mern-chat-backend/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cd ./mern-chat-backend && node run start"
+    },
+    "engines": {
+        "node": "16.x"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "argon2": "^0.28.4",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.2.1",
+        "validator": "^13.7.0"
+    }
+}
